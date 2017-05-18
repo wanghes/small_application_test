@@ -1,0 +1,23 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "description": "no",
+  "main": "no",
+  "scripts": {
+    "test": "no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "wanghes",
+  "license": "MIT",
+  "devDependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "multer": "^1.3.0"
+  }
+}

@@ -1,0 +1,9 @@
+<view class="container location_wrap">
+	<view>
+		<button type="primary" bindtap="fetchLocation">获取地理坐标</button>
+	</view>
+	<view class="location_info">
+		<text class="align_loc" wx:if="{{longitudeText}}">{{longitudeText}}</text>
+		<text class="align_loc"  wx:if="{{latitudeText}}">{{latitudeText}}</text>
+	</view>
+</view>

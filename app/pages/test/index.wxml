@@ -1,0 +1,28 @@
+<!-- index.wxml -->
+<view class="test-view">
+	<view class="box">
+	    <switch checked bindchange="switch1Change"/>
+	    <switch bindchange="switch2Change"/>
+	</view>
+	<view class="box">Hello {{name}}! </view>
+	<view class="box">
+		<button type="primary" bindtap="changeName">修改名字</button>
+	</view>
+	<view class="box">
+		<button type="warn" bindtap="jumpLogs">跳转日志页面!</button>
+	</view>
+	<view class="box">
+		<button type="primary" bindtap="jumpInfo">跳转功能</button>
+	</view>
+	<view class="box">
+		<button size="mini" type="primary" bindtap="selectImg">选择图片</button>
+	</view>
+	<view class="box">图片本地url {{url}}! </view>
+	<view class="item_book box" wx:for="{{books}}" bindtap="showID" data-id="{{item.id}}" wx:for-item="item" wx:key="item.id">
+		{{item.name}}
+	</view>
+	<view class="box" wx:if="{{url}}" >
+		 <image style="width: 200px; height: 200px; background-color: #eeeeee;" src="http://localhost:3000/{{url}}" bindtap="priview" data-src="http://localhost:3000/{{url}}"></image>
+
+	</view>
+</view>

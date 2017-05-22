@@ -1,0 +1,254 @@
+@import './base/base.wxss';
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.bod-box {
+  box-sizing: border-box;
+}
+page {
+  /*background: #efeff4;*/
+}
+.header {
+  font-size: 28rpx;
+  padding: 0 63rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background: #fff;
+}
+.nav-item {
+  padding: 0 69rpx;
+  color: #353535;
+  height: 100rpx;
+}
+.nav-item-cur {
+  border-bottom: 6rpx solid #1aad19;
+  color: #1aad19;
+}
+.pos-re{
+  position:relative;
+}
+/* S margin padding text */
+.mb30 {
+  margin-bottom: 30rpx;
+}
+.mt30{
+  margin-top:30rpx;
+}
+.mt20{
+  margin-top:20rpx;
+}
+.mt60 {
+  margin-top: 60rpx;
+}
+.mt16 {
+  margin-top: 16rpx;
+}
+.pt35{
+  padding-top:35rpx;
+}
+.pt10{
+  padding-top:10rpx;
+}
+.plr30{
+  padding:0 30rpx 0;
+}
+.tl {
+  text-align: left;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+/* E margin padding text */
+
+/* display */
+.block {
+  display: block;
+}
+
+
+/* S font */
+.f48 {
+  font-size: 48rpx;
+}
+.f36 {
+  font-size: 36rpx;
+}
+.f34 {
+  font-size: 34rpx;
+}
+.f32 {
+  font-size: 32rpx;
+}
+.f30{
+  font-size:30rpx;
+}
+.f28{
+  font-size:28rpx;
+}
+.f26{
+  font-size:26rpx;
+}
+/* E font */
+
+/* S flex */
+.wx-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.just-start {
+  justify-content: flex-start;
+}
+.just-center {
+  justify-content: center;
+}
+.just-end {
+  justify-content: flex-end;
+}
+.just-around {
+  justify-content: space-around;
+}
+.align-str {
+  align-items: stretch;
+}
+.align-c {
+  align-items:center;
+}
+.align-start {
+  align-self: flex-start;
+}
+.align-end {
+  align-self: flex-end;
+}
+.wx-flex-c {
+  display: flex;
+  flex-direction: column;
+}
+/* E flex */
+
+/* S 页面内容可以共用的样式 */
+.o-arrow-r {
+  width: 16rpx;
+  height: 16rpx;
+  border-width: 6rpx 6rpx 0 0;
+  border-color: #c7c7cc;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  margin-right: 4rpx;
+}
+.btn-area {
+  padding: 0 30rpx 30rpx;
+}
+.o-con {
+  background: #fff;
+  /*border: 2rpx solid #e5e5e5;*/
+  border-left: none;
+  border-right: none;
+}
+.bod-b{
+  border-bottom: 2rpx solid #e5e5e5 !important;
+}
+.bod-t{
+  border-top: 2rpx solid #e5e5e5 !important;
+}
+.bod-tb0{
+  border-top:none;
+  border-bottom:none;
+}
+.pt0{
+  padding-top:0 !important;
+}
+.o-tip,.o-tip0{
+  width: 100%;
+  background: #e64340;
+  color: #fff;
+  font-size: 30rpx;
+  text-align: center;
+  padding: 20rpx;
+  position: fixed;
+  top: 100rpx;
+}
+.o-tip0{
+  top:0;
+}
+.o-teaser{
+  padding: 30rpx 30rpx 30rpx 0;
+  margin-left: 30rpx;
+}
+.o-teaser:last-child{
+  border-bottom:none;
+}
+.order-teaser{
+  padding: 40rpx 40rpx 40rpx 0;
+  margin-left: 30rpx;
+}
+.order-teaser:last-child{
+  border-bottom:none;
+}
+.o-adr-e{
+  width:480rpx;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  padding-top:10rpx;
+}
+.radio-pad{
+  padding-right:25rpx;
+}
+.send-icon{
+  width:48rpx;
+  height:48rpx;
+  padding-right:30rpx;
+}
+.slide-image{
+  width:100%;
+}
+.o-adr-s{
+  border-left:2rpx solid #e5e5e5;
+  padding:20rpx 0 20rpx 30rpx;
+}
+.o-cho-btn{
+  padding-right:26rpx;
+}
+.pos-bot{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  padding:16px 30rpx 30px;
+  background:#efeff4;
+}
+/* E 页面内容可以共用的样式 */
+
+.w100 {
+  width: 100%;
+}
+
+/* S form */
+.input-txt {
+  width: 100%;
+}
+.wx-flex-hd {
+  width: 180rpx;
+}
+.wx-flex-hdL {
+  width: 246rpx;
+}
+.wx-flex-bd {
+  flex: 1;
+}
+.txtA {
+  height: 95rpx;
+}
+/* E form */

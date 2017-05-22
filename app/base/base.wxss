@@ -1,0 +1,62 @@
+/*
+颜色参考规范
+@C1: #369be9;  //主背景色天蓝
+@C2: #ff595a; // 淡红
+@C3: #50c67c; // 浅绿
+@C4: #feb300; // 浅黄
+@C5: #808080; // 暗灰
+@C6: #aaaaaa; //浅灰
+@C7: #dedede; // 淡灰
+@C0: #323232; //亮黑
+@C9: #ffffff; //白色
+*/
+
+
+button[disabled] {
+    opacity: 0.6;
+}
+
+.bg_main {
+    background-color: #369be9;
+}
+
+
+/* S color */
+
+.c-gray {
+  color: #b2b2b2;
+}
+
+.c-g888 {
+  color: #888;
+}
+
+.c-g999 {
+  color: #999;
+}
+
+.c-green {
+  color: #1aad19;
+}
+
+.c-black35 {
+  color: #353535;
+}
+
+.c-black {
+  color: #000;
+}
+
+.c-red {
+  color: #e64340;
+}
+
+.c-white {
+  color: #fff;
+}
+
+/* E color */
+
+
+
+

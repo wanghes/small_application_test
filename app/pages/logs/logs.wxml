@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+  <navigator open-type="navigateBack">回退</navigator>
+  <button type="primary" bindtap="clearLogs">清除logs</button>
+</view>

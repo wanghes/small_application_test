@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/test/index",
+    "pages/location/index",
+    "pages/logs/logs",
+    "pages/login/login"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#369be9",
+    "navigationBarTitleText": "G7 手机工单",
+    "navigationBarTextStyle":"#fff"
+  }
+}
